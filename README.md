@@ -1,8 +1,9 @@
-# JDLRegexTutorial
+
+# 17 Computer Science for JavaScript: Regex Tutorial
 
 ## Your Task
 
-Developers write code, but they also _write about code_. Take a moment to search the web for tutorials about any of the subjects you’ve learned so far in this course. You’re likely to find thousands of tutorials written by developers of all skill levels, including junior developers&mdash;like yourself!
+Developers write code, but they also *write about code*. Take a moment to search the web for tutorials about any of the subjects you’ve learned so far in this course. You’re likely to find thousands of tutorials written by developers of all skill levels, including junior developers&mdash;like yourself!
 
 Your assignment this week is to create a tutorial that explains how a specific regular expression, or regex, functions by breaking down each part of the expression and describing what it does. You'll use the template provided in the starter code to create your walkthrough.
 
@@ -30,7 +31,7 @@ THEN I find a section about the author and a link to the author’s GitHub profi
 
 ## What Is a Regex?
 
-A **regex**, which is short for **regular expression**, is a sequence of characters that defines a specific search pattern. When included in code or search algorithms, regular expressions can be used to find certain patterns of characters within a string, or to find and replace a character or sequence of characters within a string. They are also frequently used to validate input.
+A **regex**, which is short for **regular expression**, is a sequence of characters that defines a specific search pattern. When included in code or search algorithms, regular expressions can be used to find certain patterns of characters within a string, or to find and replace a character or sequence of characters within a string. They are also frequently used to validate input. 
 
 For example, the following regular expression can be used to verify that user input is a valid email address:
 
@@ -44,13 +45,13 @@ Once you have a better understanding of what these different parts of a regular 
 
 You can choose one of the following regular expressions or you can choose one that you found on your own (with the exception of the one that is covered in the [Regex Tutorial: Matching a Username](https://coding-boot-camp.github.io/full-stack/computer-science/regex-tutorial):
 
-- Matching a Hex Value: `/^#?([a-f0-9]{6}|[a-f0-9]{3})$/`
+* Matching a Hex Value: `/^#?([a-f0-9]{6}|[a-f0-9]{3})$/`
 
-- Matching an Email: `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
+* Matching an Email: `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
 
-- Matching a URL: `/^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/`
+* Matching a URL: `/^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/`
 
-- Matching an HTML Tag: `/^<([a-z]+)([^<]+)*(?:>(.*)<\/\1>|\s+\/>)$/`
+* Matching an HTML Tag: `/^<([a-z]+)([^<]+)*(?:>(.*)<\/\1>|\s+\/>)$/`
 
 ## Getting Started
 
@@ -74,37 +75,37 @@ This homework is graded based on the following criteria:
 
 ### Deliverables: 30%
 
-- A valid URL of your GitHub gist.
+* A valid URL of your GitHub gist.
 
-- Your GitHub gist that contains the tutorial Markdown.
+* Your GitHub gist that contains the tutorial Markdown.
 
 ### Technical Acceptance Criteria: 50%
 
-- Satisfies all of the above acceptance criteria plus the following:
+* Satisfies all of the above acceptance criteria plus the following:
 
-  - Revisions to the tutorial must be made in the GitHub gist UI so that graders have access to your revision history.
+    * Revisions to the tutorial must be made in the GitHub gist UI so that graders have access to your revision history.
 
-  - The tutorial must cover one of the regex examples listed above or another of your choice. You may NOT use the regex covered in the [Regex Tutorial: Matching a Username](https://coding-boot-camp.github.io/full-stack/computer-science/regex-tutorial).
+    * The tutorial must cover one of the regex examples listed above or another of your choice. You may NOT use the regex covered in the [Regex Tutorial: Matching a Username](https://coding-boot-camp.github.io/full-stack/computer-science/regex-tutorial).
 
-  - The tutorial must include sections that correspond to each of the components that make up the regex. You may not need to use all of the sections included in the starter code, but you should include all of the sections that correspond to the different components of the regex you chose.
+    * The tutorial must include sections that correspond to each of the components that make up the regex. You may not need to use all of the sections included in the starter code, but you should include all of the sections that correspond to the different components of the regex you chose.
 
-  - Each section that describes a component must include more than just one sentence explaining what it does. It’s okay to use online resources for assistance, but do not copy and paste; explain each component in your own words and be thorough.
+    * Each section that describes a component must include more than just one sentence explaining what it does. It’s okay to use online resources for assistance, but do not copy and paste; explain each component in your own words and be thorough.
 
-  - Each section that describes a component must include a code snippet of that particular component. Use backticks to display your code snippets in Markdown.
+    * Each section that describes a component must include a code snippet of that particular component. Use backticks to display your code snippets in Markdown.
 
-  - Each section that describes a component must include at least one example that meets the requirements of that component.
+    * Each section that describes a component must include at least one example that meets the requirements of that component.
 
 ### Tutorial Clarity and Quality: 20%
 
-- Tutorial provides a clear explanation of how the regex works. Be as concise as possible.
+* Tutorial provides a clear explanation of how the regex works. Be as concise as possible.
 
-- Tutorial describes each regex component in a separate section.
+* Tutorial describes each regex component in a separate section.
 
 ## Review
 
 You are required to submit the following for review:
 
-- The URL of the GitHub gist. Give the gist a unique name.
+* The URL of the GitHub gist. Give the gist a unique name.
 
 ---
 
